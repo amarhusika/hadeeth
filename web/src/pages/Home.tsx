@@ -45,6 +45,7 @@ export default function Home({ data, index, q }: { data: Data; index: Indexed[];
         <footer className="foot">
           <p className="based">عُمِلَ هَذَا الْمَوْقِعُ وَفْقَ كِتَابِ<br /><b>«مُحَصِّلُ دَوَاوِينِ السُّنَّةِ الثَّمَانِيَةَ عَشَرَ: زِيَادَاتُ السُّنَنِ وَالْمَسَانِيدِ وَالصِّحَاحِ وَالْمَعَاجِمِ لِلْحُفَّاظِ»</b></p>
           <p>النصوص من «الجمع بين الصحيحين للحفاظ» و«الجمع بين زوائد السنن» ليحيى بن عبد العزيز اليحيى — طبعة دار الرفقة.</p>
+          <p><a className="app-link" href="https://github.com/amarhusika/hadeeth" target="_blank" rel="noopener"><span className="app-ico" aria-hidden />تطبيق الجوال</a></p>
           <p className="muted">ما كان بهذا اللون <span className="buk">(…)</span> فهو من أفراد البخاري، والحواشي تحت كل حديث كما في المطبوع.</p>
         </footer>
       )}

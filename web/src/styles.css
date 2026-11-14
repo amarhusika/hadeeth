@@ -394,3 +394,11 @@ a.num:hover { background: color-mix(in srgb, var(--gold) 35%, transparent); }
 /* znak ح u gornjoj traci kao slika — da harf bude tačno u sredini (isto kao u Android aplikaciji) */
 .seal { background: url(/seal.png) center / contain no-repeat !important; box-shadow: none !important; color: transparent !important; font-size: 0 !important; }
 [data-theme='dark'] .seal { background-image: url(/seal-dark.png) !important; }
+
+.app-link {
+  display: inline-flex; align-items: center; gap: 8px; margin: 6px 0 2px; padding: 5px 0; padding-inline: 6px 16px; border-radius: 999px;
+  border: 1px solid var(--gold); color: var(--green); font-family: var(--serif); font-size: 1.1rem; text-decoration: none;
+}
+.app-link:hover { background: color-mix(in srgb, var(--gold) 14%, transparent); }
+.app-ico { width: 28px; height: 28px; border-radius: 7px; background: url(/seal.png) center / contain no-repeat; flex: none; }
+[data-theme='dark'] .app-ico { background-image: url(/seal-dark.png); }
