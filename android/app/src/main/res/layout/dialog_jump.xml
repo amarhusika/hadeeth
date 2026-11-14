@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_pop_dialog"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:paddingStart="20dp"
+    android:paddingTop="10dp"
+    android:paddingEnd="20dp"
+    android:paddingBottom="22dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="انتقل إلى الحديث"
+            android:textColor="@color/title"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/jumpClose"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="إغلاق"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="×"
+            android:textColor="@color/muted"
+            android:textSize="26sp" />
+    </LinearLayout>
+
+    <include layout="@layout/view_jump" />
+</LinearLayout>

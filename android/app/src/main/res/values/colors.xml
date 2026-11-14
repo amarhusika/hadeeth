@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="paper">#F5EFE3</color>
+    <color name="paper2">#FBF8F1</color>
+    <color name="card">#FFFDF8</color>
+    <color name="ink">#1D2A26</color>
+    <color name="ink_soft">#55625D</color>
+    <color name="muted">#8A8F86</color>
+    <color name="green">#123B33</color>
+    <color name="green2">#1D5A4C</color>
+    <color name="gold">#B8893A</color>
+    <color name="gold_soft">#EAD8B0</color>
+    <color name="buk">#8B3A8F</color>
+    <color name="quran">#0F6B5C</color>
+    <color name="mark">#F6DD8A</color>
+    <color name="line">#E6DCCB</color>
+    <color name="accent">#123B33</color>
+    <color name="on_accent">#F4EAD2</color>
+    <color name="title">#123B33</color>
+    <color name="chip">#F5EDDD</color>
+    <color name="tag_bg">#E4E9E3</color>
+    <color name="error">#C0392B</color>
+    <color name="seal">#123B33</color>
+    <color name="meta">#4A6585</color>
+    <color name="pop">#F4EAD3</color>
+    <color name="pop_line">#DCC690</color>
+    <color name="launcher_bg">#123B33</color>
+</resources>

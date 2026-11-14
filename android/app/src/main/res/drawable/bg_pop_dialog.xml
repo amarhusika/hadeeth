@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- zlatna linija na vrhu, kao na webu -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/gold" />
+            <corners android:radius="18dp" />
+        </shape>
+    </item>
+    <item android:top="3dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/pop" />
+            <stroke android:width="1dp" android:color="@color/pop_line" />
+            <corners android:radius="18dp" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,27 @@
+# Web
+node_modules/
+dist/
+*.local
+npm-debug.log*
+
+# Android
+.gradle/
+.idea/
+.kotlin/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+*.iml
+*.apk
+release/
+*.aab
+*.jks
+*.keystore
+
+# Sistem
+.DS_Store
+Thumbs.db
+__pycache__/
+_to_delete/
